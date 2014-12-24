@@ -1,0 +1,21 @@
+{
+    "name": "wolfguard/yii2-block",
+    "description": "Yii2 module for HTML blocks editing",
+    "type": "yii2-extension",
+    "keywords": ["yii2","html","blocks","module"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ivan Fedyaev",
+            "email": "ivan.fedyaev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wolfguard\\block\\": ""
+        }
+    }
+}
