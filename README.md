@@ -21,6 +21,34 @@ or add
 
 to the require section of your `composer.json` file.
 
+After running 
+
+```
+php composer.phar update
+```
+
+run
+
+```
+yii migrate --migrationPath=@vendor/wolfguard/yii2-block/migrations
+```
+
+After that change your main configuration file ```config/web.php```
+
+```php
+<?php return [
+    ...
+    'modules' => [
+        ...
+        'block' => [
+            'class' => 'wolfguard\block\Module',
+        ],
+        ...
+    ],
+    ...
+];
+```
+
 
 Usage
 -----
@@ -28,4 +56,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \wolfguard\block\AutoloadExample::widget(); ?>```
+<?= \wolfguard\block\widgets\Block::widget(['code' => 'about']); ?>```

@@ -1,0 +1,82 @@
+.inline-block-admin {
+    display: inline-block;
+    position: relative;
+    min-width: 2em;
+    min-height: 1em;
+}
+.inline-block-admin:hover {
+    border: 1px dashed #444444;
+}
+
+.inline-block-admin .btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.inline-block-admin .btn:focus, .inline-block-admin .btn:active:focus, .inline-block-admin .btn.active:focus, .inline-block-admin .btn.focus,
+.inline-block-admin .btn.focus:active, .inline-block-admin .btn.active.focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.inline-block-admin .btn:hover, .inline-block-admin .btn:focus, .inline-block-admin .btn.focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.inline-block-admin .btn:active, .inline-block-admin .btn.active {
+    background-image: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+
+.inline-block-admin .btn.disabled, .inline-block-admin .btn[disabled], .inline-block-admin fieldset[disabled] .btn {
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.inline-block-admin .btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+.inline-block-admin .btn-success:hover, .inline-block-admin .btn-success:focus, .inline-block-admin .btn-success.focus,
+.inline-block-admin .btn-success:active, .inline-block-admin .btn-success.active, .inline-block-admin .open > .dropdown-toggle.btn-success {
+    background-color: #449d44;
+    border-color: #398439;
+    color: #fff;
+}
+
+.inline-block-admin .btn-success:active, .inline-block-admin .btn-success.active, .inline-block-admin .open > .dropdown-toggle.btn-success {
+    background-image: none;
+}
+
+.inline-block-admin .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.inline-block-admin:hover .btn {
+    display: inherit;
+}
+
+.inline-block-admin a.btn {
+    text-decoration: none;
+}

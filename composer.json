@@ -17,5 +17,8 @@
         "psr-4": {
             "wolfguard\\block\\": ""
         }
+    },
+    "extra": {
+        "bootstrap": "wolfguard\\block\\Bootstrap"
     }
 }
