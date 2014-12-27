@@ -4,6 +4,10 @@
     "type": "yii2-extension",
     "keywords": ["yii2","html","blocks","module"],
     "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/wolfguarder/yii2-block/issues",
+        "source": "https://github.com/wolfguarder/yii2-block"
+    },
     "authors": [
         {
             "name": "Ivan Fedyaev",
@@ -11,7 +15,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "~2.0"
     },
     "autoload": {
         "psr-4": {
