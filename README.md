@@ -56,4 +56,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \wolfguard\block\widgets\Block::widget(['code' => 'about']); ?>```
+<?= \wolfguard\block\widgets\Block::widget(['code' => 'about']); ?>
+```
