@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <?= $form->field($model, 'code')->textInput(['maxlength' => 255])->hint(Yii::t('block', 'Only latin characters, numbers and symbols (.-_) allowed. Spaces not allowed.')) ?>
 
-        <?= $form->field($model, 'value')->textarea() ?>
+        <?= $form->field($model, 'value')->widget('trntv\aceeditor\AceEditor', ['theme' => 'chrome']) ?>
 
         <div class="form-group">
             <?= Html::submitButton(Yii::t('block', 'Save'), ['class' => 'btn btn-success']) ?>

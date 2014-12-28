@@ -26,7 +26,7 @@ return [
     'Code' => 'Код',
     'Create block' => 'Создать блок',
     'Created at' => 'Время создания',
-    'Created at {0, date, MMMM dd, YYYY HH:mm}' => 'Время создания: {0, date, MMMM dd, YYYY HH:mm}',
+    'Created at {0, date, MMMM dd, YYYY HH:mm}' => 'Время создания: {0, date, dd MMMM YYYY, HH:mm}',
     'Don\'t change this value, if you not sure for what it is for.' => 'Не меняйте значение этого поля, если не уверены в том для чего оно предназначено.',
     'Edit' => 'Изменить',
     'Information' => 'Информация',

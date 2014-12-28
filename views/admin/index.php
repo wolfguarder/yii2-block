@@ -27,7 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'attribute' => 'created_at',
             'value' => function ($model, $key, $index, $widget) {
                 return Yii::t('block', '{0, date, MMMM dd, YYYY HH:mm}', [$model->created_at]);
-            }
+            },
+            'filter' => false,
         ],
         [
             'class' => 'yii\grid\ActionColumn',

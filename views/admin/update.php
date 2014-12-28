@@ -32,9 +32,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <?= $form->field($model, 'name')->textInput(['maxlength' => 255]) ?>
 
-        <?= $form->field($model, 'code')->textInput(['maxlength' => 255])->hint(Yii::t('block', 'Don\'t change this value, if you not sure for what it is for.')) ?>
+        <?= $form->field($model, 'value')->widget('trntv\aceeditor\AceEditor', ['theme' => 'chrome']) ?>
 
-        <?= $form->field($model, 'value')->textarea() ?>
+        <?= $form->field($model, 'code')->textInput(['maxlength' => 255])->hint(Yii::t('block', 'Don\'t change this value, if you not sure for what it is for.')) ?>
 
         <div class="form-group">
             <?= Html::submitButton(Yii::t('block', 'Save'), ['class' => 'btn btn-primary']) ?>

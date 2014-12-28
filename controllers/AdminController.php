@@ -42,7 +42,7 @@ class AdminController extends Controller
     }
 
     /**
-     * Lists all User models.
+     * Lists all Block models.
      * @return mixed
      */
     public function actionIndex()
