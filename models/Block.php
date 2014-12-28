@@ -23,11 +23,6 @@ use Yii;
  */
 class Block extends ActiveRecord
 {
-    const USER_CREATE_INIT   = 'user_create_init';
-    const USER_CREATE_DONE   = 'user_create_done';
-    const USER_REGISTER_INIT = 'user_register_init';
-    const USER_REGISTER_DONE = 'user_register_done';
-
     /** @inheritdoc */
     public function attributeLabels()
     {

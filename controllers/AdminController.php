@@ -76,7 +76,7 @@ class AdminController extends Controller
     }
 
     /**
-     * Updates an existing User model.
+     * Updates an existing Block model.
      * If update is successful, the browser will be redirected to the 'index' page.
      * @param  integer $id
      * @return mixed
@@ -102,7 +102,7 @@ class AdminController extends Controller
     }
 
     /**
-     * Deletes an existing User model.
+     * Deletes an existing Block model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param  integer $id
      * @return mixed
@@ -124,12 +124,12 @@ class AdminController extends Controller
      */
     protected function findModel($id)
     {
-        $user = $this->module->manager->findBlockById($id);
+        $model = $this->module->manager->findBlockById($id);
 
-        if ($user === null) {
+        if ($model === null) {
             throw new NotFoundHttpException('The requested page does not exist');
         }
 
-        return $user;
+        return $model;
     }
 }

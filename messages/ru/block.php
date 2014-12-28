@@ -37,5 +37,5 @@ return [
     'Update block' => 'Изменить блок',
     'Updated at' => 'Время изменения',
     'Value' => 'Значение',
-    '{0, date, MMMM dd, YYYY HH:mm}' => '{0, date, MMMM dd, YYYY HH:mm}',
+    '{0, date, MMMM dd, YYYY HH:mm}' => '{0, date, dd MMMM YYYY, HH:mm}',
 ];
